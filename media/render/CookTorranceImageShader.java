@@ -188,6 +188,8 @@ microfacetRoughness = 4.8f;
 
    protected void handleBidirectionaIllumination(float barycentricU, float barycentricV, float barycentricW, float[] sample) {
 
+      System.out.println("Testing repository updating")
+
       float[] normal = new float[3];
       float[] position = new float[3];
 
